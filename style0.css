@@ -1,0 +1,33 @@
+body{
+	background-image: url("images/pattern.png");
+	background-repeat: auto;
+	/*background-repeat: repeat-x;*/
+	/* how to stop repeating background */
+	/*background: url("../images/pattern.png") no-repeat;*/
+
+	/* repeat left to right */
+	/*background: url("pattern.png") repeat-x;*/
+	/*background: url("https://upload.wikimedia.org/wikipedia/commons/b/bc/Gluecksklee_(transparent_background).png") repeat-x;*/
+	/* Y - top to bottom (Y: to the sky) */
+}
+
+
+
+div#box1 {
+	height: auto;
+	width: auto;
+	background-color: brown;
+}
+
+img {
+	height: 80px;
+}
+
+div#box2 {
+	height: 800px;
+	width: auto;
+	background-color: teal;
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/bc/Gluecksklee_(transparent_background).png");
+	margin: 50px;
+	background-size: 100%;
+}

@@ -1,0 +1,55 @@
+body{
+	margin: 50px;
+}
+
+.blackboard{
+	background: black url() no-repeat;
+	position: relative;
+	height: 400px;
+	margin: 30px;
+	border: 30px solid #B18A50  ;
+	border-radius: 25px;
+	z-index: 99;
+}
+
+.practice{
+	color: #8ef748;
+	position: absolute;
+	right: 65px;
+	bottom: 10px;
+	font-size: 48px;
+	font-style: sans-serif Arial;
+}
+
+#maths{
+	color: white;
+	position: absolute;
+	left: 300px;
+	top: 20px;
+	font-size: 36px;
+	font-style: sans-serif Arial;
+
+}
+#comp {
+	color: #4BADBF;
+	position: absolute;
+	left: 300px;
+	top: 60px;
+	font-size: 36px;
+	font-style: sans-serif Arial;
+}
+
+#robot{
+	position: absolute;
+	padding-left: 70px;
+	padding-top: 40px;
+	z-index: 100;
+}
+
+#callout{
+	position: absolute;
+	padding-left: 90px;
+	padding-top: 50px;
+
+	z-index:101;
+}
